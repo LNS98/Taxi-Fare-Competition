@@ -2,30 +2,12 @@
 Main algorithm.
 """
 
-#import time
-#
-#import pandas as pd
-#import numpy as np
-#import matplotlib.pyplot as plt
-#import seaborn as sns
-#from math import radians, cos, sin, asin, sqrt
-#from sklearn.linear_model import LinearRegression
-#from sklearn.tree import DecisionTreeRegressor, export_graphviz
-#from sklearn.ensemble import RandomForestRegressor
-#from sklearn.neural_network import MLPRegressor
-#from sklearn.model_selection import train_test_split, cross_val_score, RandomizedSearchCV, GridSearchCV
-#from sklearn.metrics import SCORERS, mean_squared_error
-#from tqdm import tqdm
-#import xgboost as xgb
-#import lightgbm as lgb
-#
-
 import numpy as np 
 import pandas as pd 
 
 from preprocess import distance_feature, time_feature, airports_feature, which_way_feature, clean_data
 from visualisations import plot_dist_fare, imp_features
-from classification import simple_xgb
+from models import simple_xgb
 from inference import predict
 
 np.warnings.filterwarnings('ignore')
