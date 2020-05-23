@@ -1,6 +1,6 @@
 # Taxi-Fare-Competition
 
-Project submission for Foundations of Data Analytics (CS910) course at the University of Warwick, Decemebr 2018. The task was to become a `Data analyst' and analyse and report findings on a chosen dataset. The dataset chosen was the Taxi Fare Competition dataset hosted on Kaggle [Taxi Fare Competition](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview).   
+Project submission for Foundations of Data Analytics (CS910) course at the University of Warwick, Decemebr 2018. The task was to become a 'Data analyst' and analyse and report findings on a chosen dataset. The dataset chosen was the Taxi Fare Competition dataset hosted on Kaggle [Taxi Fare Competition](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview).   
 
 ## Abstract of report 
 The data set for the NYC Taxi Fare competition on Kaggle was explored and modelled in
@@ -13,14 +13,12 @@ developed for the challenge can be found here.
 
 ## Structure of Repository
 
-A brief explanation of the important files
-
 - `final_report.pdf` - Final report submitted for the course presenring the findings for the report.
 
-- `/data` - Contains the traning and test data provided by Kaggle for the competition.
+- `/data` - Contains a link to the download page for the traning and test data provided by Kaggle for the competition.
 
-- `/scripts` - Contains the scripts for the data processing and classification tasks.
+- `/scripts` - Contains the scripts for the data processing and inference tasks.
 
 - `/images` - Contains the images present in the final report.
 
-- `/results` - Contains the outputs of different settings run for the scripts corresponding to different classifiers being run.
+- `/results` - Contains the output path for the results ran in for the classifier (all results were removed hence empty). 
